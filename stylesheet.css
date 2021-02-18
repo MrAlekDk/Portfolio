@@ -26,13 +26,13 @@ li{
 }
 
 ul{
+    list-style-type:none;
     text-align: left;
     list-style: circle;
     text-space: 100px;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 a{
