@@ -1,0 +1,86 @@
+body{
+ background-color: mistyrose;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Candara;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    font-family: Candara;
+    font-size: 75px;
+}
+
+p{
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: inherit;
+}
+
+li{
+
+}
+
+ul{
+    text-align: left;
+    list-style: circle;
+    text-space: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+a{
+    font-family: Corbel;
+
+    font-size: 20px;
+}
+.introduction{
+    text-align: left;
+    font-family: "Comic Sans MS";
+    background-color: darkseagreen;
+    border: black;
+    border-radius: 10px;
+}
+
+.education{
+background-color: darkseagreen;
+    border-radius: 10px;
+}
+
+.list-of-jobs{
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+
+.footer-header{
+    text-align: left;
+    font-family: Candara;
+    font-size: 65px;
+}
+
+.alek{
+    image-resolution: normal;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 2px;
+    float:right;
+
+}
+
+.hello{
+    clear: right;
+    margin-bottom: 100px;
+}
+
