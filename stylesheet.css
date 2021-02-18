@@ -57,7 +57,7 @@ a{
     text-decoration-line: none;
 }
 a:hover{
-    background-color: blue;
+    background-color: #85e17e;
 }
 
 
@@ -70,7 +70,7 @@ a:hover{
 }
 
 .education{
-background-color: darkseagreen;
+background-color: #8fbc8f;
     border-radius: 10px;
 }
 
@@ -82,6 +82,10 @@ background-color: darkseagreen;
 .footer{
     background-color: lightsalmon;
     border-radius: 10px;
+}
+.footer h2{
+    padding-top: 20px;
+    text-align: right;
 }
 
 .footer-header{
@@ -97,10 +101,26 @@ background-color: darkseagreen;
     border: 1px solid #ddd;
     border-radius: 20px;
     padding: 2px;
+    width:400px;
+    height:600px;
 }
 
 .hello{
     clear: right;
     margin-bottom: 100px;
 }
+
+.logo{
+    width:100px;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    image-resolution: normal;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 2px;
+    flex-direction: row-reverse;
+}
+
+
 
