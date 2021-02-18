@@ -21,14 +21,9 @@ p{
     font-weight: inherit;
 }
 
-li{
-
-}
-
 ul{
-    list-style-type:none;
+    list-style-type: none;
     text-align: left;
-    list-style: circle;
     text-space: 100px;
     display:flex;
     flex-direction: row;
@@ -37,7 +32,6 @@ ul{
 
 a{
     font-family: Corbel;
-
     font-size: 20px;
 }
 .introduction{
