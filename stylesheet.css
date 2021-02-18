@@ -1,5 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
  background-color: mistyrose;
+}
+
+header{
+    background-color: darkseagreen;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 
