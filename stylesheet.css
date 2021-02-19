@@ -47,7 +47,7 @@ li{
     margin-top: 20px;
 }
 
-a{
+.flex-container a{
     font-family: Corbel;
     font-size: 20px;
     height: 20px;
@@ -56,7 +56,7 @@ a{
     border-radius: 20px;
     text-decoration-line: none;
 }
-a:hover{
+.flex-container a:hover{
     background-color: #85e17e;
 }
 
@@ -91,7 +91,7 @@ background-color: #8fbc8f;
 }
 
 .footer{
-    background-color: lightsalmon;
+    background-color: #da6985;
     border-radius: 10px;
 }
 .footer h2{
@@ -131,6 +131,12 @@ background-color: #8fbc8f;
     padding: 2px;
     flex-direction: row-reverse;
     position: fixed;
+}
+
+.linkimage{
+
+    height: 50px;
+    width: 50px;
 }
 
 
