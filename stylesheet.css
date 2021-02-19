@@ -126,7 +126,7 @@ background-color: #8fbc8f;
     display: flex;
     flex-direction: row;
     image-resolution: normal;
-    border: 1px solid #000000;
+    border: 1px solid #000001;
     border-radius: 20px;
     padding: 2px;
     flex-direction: row-reverse;
