@@ -78,10 +78,10 @@ li {
 }
 
 .flex-container a:hover {
-    background-color: #c5450a;
+    background-color: #5aa76f;
+    border-style: dotted;
     transition: all 700ms ease;
 }
-
 
 .introduction {
     margin-top:200px;
