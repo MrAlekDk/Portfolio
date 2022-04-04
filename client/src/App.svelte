@@ -1,30 +1,31 @@
 <script>
-	
+	import { Router, Link, Route } from "svelte-navigator";
+	import About from "./Pages/About/About.svelte"
+	import Frontpage from "./Pages/Frontpage/Frontpage.svelte";
+	import Experience from "./Pages/Experience/Experience.svelte"
+	import Portfolio from "./Pages/Portfolio/Portfolio.svelte";
+	import Contact from "./Pages/Contact/Contact.svelte"
+
+	const backgroundSrc = "./images/comfy.jpg"
 </script>
 
-<main>
-	<h1>Hello!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<Router>
+	<Route path="/" component={Frontpage} />
+	<Route path="/about" component={About} />
+	<Route path="/experience" component={Experience} />
+	<Route path="/portfolio" component={Portfolio} />
+	<Route path="/contact" component={Contact} />
+</Router>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+:global(body){
+	background-image: url("../images/comfy.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
